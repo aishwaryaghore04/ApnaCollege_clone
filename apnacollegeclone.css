@@ -1,0 +1,191 @@
+.f{
+    height:3rem;
+  }
+  
+  
+  
+  
+  
+  .wrapper{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    } 
+    .n1{
+      display: flex;
+      padding-right: 20px; 
+      justify-content: space-around;
+      align-items: center;
+  
+    }
+    
+  .h{
+    margin-right:40px ;
+  }
+  .b2{
+    margin-right:50px ;
+    background-color: white;
+    border-color: #6647cc;
+    color: #6647cc;
+    border-radius: 6px;
+    padding: 15px 5px 15px 5px;
+  
+  }
+  .b1{
+    margin-right:40px ;
+    background-color: #6647cc;
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 15px 5px 15px 5px;
+  }
+  
+  .m{
+    width: 100%;
+    height: 7rem;
+    background-color: #F8F8FD;
+  }
+  .m h3{
+    text-align: center;
+    padding-top: 40px;
+  }
+  .t{
+    margin-left: 2rem;
+  }
+  
+  .m2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+  }
+  .card{
+  
+    width: 19rem;   
+    margin-left: 10rem;
+   background-color:#F8F8FD ;
+   padding: 30px;
+  }
+  
+  .card img{
+    width: 19rem;
+  }
+  .card .rang{
+    width:76%;
+    appearance: none;
+    background-color: #53538a;
+    cursor: pointer;  
+  }
+  
+  .rang::-webkit-slider-runnable-track{
+    background-color: #53538a;
+    border-radius: 100px;
+    height: 0.2rem;
+    width:90%;
+  }
+  .rang::-webkit-slider-thumb{
+   appearance: none;
+   height: 0.0001rem;
+   width: 0.0001rem;
+   background-color: #F8F8FD;
+   border-radius: 50%;
+   margin-top: -6px;
+  }
+  .card .cont{
+    background-color: #6647cc;
+    color:aliceblue;
+    padding: 1rem;
+    font-size: 1.125rem;
+    border-radius: 12px;
+  }
+  
+  .m3 h3{
+    text-align: center;
+    font-style: bold;
+    padding-top:15px
+  }
+  
+  .lnk{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+  }
+  .lnk .tele{
+    height: 3rem;
+  }
+  .lnk .yt{
+    height: 3rem;
+  }
+  .name {
+     display: flex;
+    justify-content: space-around;
+    padding-top:25px;
+  }
+  .name a{
+    text-decoration: none;
+    color: black;
+  }
+  .bottom-part{
+    display: flex;
+    padding-top: 100px;
+    margin-left: 20px;
+    justify-content: space-around;
+    
+  }
+  .bottom-part .I{
+    width: 320px;
+  }
+  .bottom-part .II{
+    width: 320px;
+  
+  }
+  .bottom-part .III{
+    width: 320px;
+  
+  }
+  
+  .bottom-part .I img{
+  height: 5rem;
+  }
+  .bottom-part .I p{
+    font-size: 18px;;
+  }
+  .bottom-part .II{
+    display: flexbox;
+    flex-direction: column;
+  }
+  .bottom-part .II ul li a{
+    text-decoration: none;
+    color: black;
+   
+  } 
+  .bottom-part .II ul li{
+    padding-bottom:15px;
+  }
+  
+  
+  
+  
+  .bottom-part .III img{
+   
+    height:2rem;
+  }
+  
+  .bottom-part .III a{
+    display: flexbox;
+    flex-direction: column;
+   font-size: 1.3rem;
+   padding-right: 100px;;
+   text-decoration: none;
+   color: black;
+  }
+  #yo{
+    text-align: center;
+    font-weight: bold ;
+  }
